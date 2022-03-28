@@ -6,4 +6,5 @@ Trybe
 Terminal
 Chrome
 Zoom
-Python
+CSS
+HTML
