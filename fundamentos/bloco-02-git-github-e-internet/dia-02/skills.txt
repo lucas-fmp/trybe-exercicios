@@ -6,3 +6,4 @@ Trybe
 Terminal
 Chrome
 Zoom
+Python
