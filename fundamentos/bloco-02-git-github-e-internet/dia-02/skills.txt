@@ -6,3 +6,5 @@ Trybe
 Terminal
 Chrome
 Zoom
+CSS
+HTML
