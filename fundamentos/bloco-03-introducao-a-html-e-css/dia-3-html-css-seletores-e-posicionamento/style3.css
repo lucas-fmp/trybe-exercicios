@@ -1,0 +1,16 @@
+h1, p {
+    text-align: center;
+}
+
+#google:hover, #youtube:hover, #twitch:hover {
+    background-color: #191970;
+}
+
+#google:active, #youtube:active, #twitch:active {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
