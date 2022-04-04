@@ -1,0 +1,61 @@
+ol li:nth-child(2n){
+    background-color: yellow;
+    color: green;
+}
+
+ol li:nth-child(2n - 1){
+    background-color: yellow;
+    text-transform: uppercase;
+}
+
+.header {
+    color: red;
+
+}
+
+.header em {
+    font-size: 40px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: 700;
+}
+
+#programming-languages li:nth-child(-n + 3) {
+    color: blue;
+}
+
+.java {
+    background-color: pink;
+}
+
+.sites li a {
+    text-decoration: none;
+}
+
+#stackoverflow:hover {
+    color: orange;
+}
+
+#w3schools:hover {
+    color: darkgreen;
+}
+
+#mdnwebdocs:hover {
+    color: black;
+}
+
+#devdocs:hover {
+    color: yellow;
+}
+
+#trybe:hover {
+    color: green;
+}
