@@ -1,4 +1,4 @@
-let chess = "Rei".toLocaleLowerCase();
+let chess = "RaINhA".toLocaleLowerCase();
 
 switch (chess) {
   case "rei":
