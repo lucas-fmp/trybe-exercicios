@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      let body = document.querySelector('body');
+      let title = document.createElement('h1');
+      body.appendChild(title);
+      title.innerText = 'Exercício 5.2 - JavaScript DOM';
+
+      let main = document.createElement('main');
+      main.className = 'main-content';
+      body.appendChild(main);
+
+      let section = document.createElement('section');
+      section.className = 'center-content';
+      main.appendChild(section);
+
+      let paragraph = document.createElement('p');
+      section.appendChild(paragraph);
+      paragraph.innerText = 'Hoje aprendemos como editar o arquivo HTML, criando tags, alterando textos, tudo usando somente o Javascript!'
+
+      let section2 = document.createElement('section');
+      section2.className = 'left-content';
+      main.appendChild(section2);
+
+      let section3 = document.createElement('section');
+      section3.className = 'right-content';
+      main.appendChild(section3);
+
+      let image = document.createElement('img');
+      image.className = 'small-image';
+      section2.appendChild(image);
+      image.setAttribute('src', 'https://picsum.photos/200');
+
+      let ul = document.createElement('ul');
+      section3.appendChild(ul);
+      for (let i = 1; i <= 10; i += 1) {
+        let li = document.createElement('li')
+        ul.appendChild(li);
+      }
+      function liText (array) {
+        for (let index = 0; index < array.length; index += 1) {
+          ul.children[index].innerText = array[index];
+        }
+      }
+      liText(['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez']);
+
+      for (let i = 0; i < 3; i += 1) {
+        let h3 = document.createElement('h3');
+        main.appendChild(h3);
+      }
+    </script>
+  </body>
+</html>

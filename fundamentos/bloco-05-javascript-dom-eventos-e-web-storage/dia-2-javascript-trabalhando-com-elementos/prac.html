@@ -1,0 +1,58 @@
+<main id="paiDoPai">
+  <section id="pai">
+    <section id="primeiroFilho"></section>
+    <section id="elementoOndeVoceEsta">
+      <section id="primeiroFilhoDoFilho"></section>
+      <section id="segundoEUltimoFilhoDoFilho"></section>
+    </section>
+    Atenção!
+    <section id="terceiroFilho"></section>
+    <section id="quartoEUltimoFilho"></section>
+  </section>
+</main>
+<script>
+
+  console.log(document.getElementById('elementoOndeVoceEsta'));
+
+  document.getElementById('elementoOndeVoceEsta').parentNode.parentNode.style.color = 'green';
+
+  document.getElementById('primeiroFilhoDoFilho').innerText = 'Olá, mundo!';
+
+  console.log(document.getElementById('pai').firstElementChild);
+
+  console.log(document.getElementById('elementoOndeVoceEsta').previousElementSibling);
+
+  console.log(document.getElementById('elementoOndeVoceEsta').nextSibling);
+
+  console.log(document.getElementById('elementoOndeVoceEsta').nextElementSibling);
+
+  console.log(document.getElementById('pai').lastElementChild.previousElementSibling);
+
+  const pai = document.querySelector('#pai');
+  const newDiv = document.createElement('section');
+  pai.appendChild(newDiv);
+
+  const ondeVoceEsta = document.querySelector('#elementoOndeVoceEsta');
+  const NewDiv2 = document.createElement('section');
+  ondeVoceEsta.appendChild(NewDiv2);
+
+  const primeiroFilhoDoFilho = document.querySelector('#primeiroFilhoDoFilho');
+  const NewDiv3 = document.createElement('section');
+  primeiroFilhoDoFilho.appendChild(NewDiv3);
+
+  const primeiroFilhoDoFilhoDoFilho = document.querySelector('#primeiroFilhoDoFilho').lastElementChild;
+  console.log(primeiroFilhoDoFilhoDoFilho.parentElement.parentElement.nextElementSibling);
+
+  pai.removeChild(pai.firstElementChild);
+  pai.removeChild(pai.lastElementChild);
+  pai.removeChild(pai.firstElementChild.nextSibling);
+  pai.removeChild(pai.firstElementChild.nextElementSibling.nextElementSibling);
+  pai.removeChild(pai.firstElementChild.nextElementSibling);
+
+  pai.firstElementChild.removeChild(pai.firstElementChild.lastElementChild);
+  pai.firstElementChild.removeChild(pai.firstElementChild.lastElementChild);
+
+  pai.firstElementChild.firstElementChild.removeChild(pai.firstElementChild.firstElementChild.firstElementChild);
+  pai.firstElementChild.firstElementChild.removeChild(pai.firstElementChild.firstElementChild.firstElementChild);
+
+</script>
