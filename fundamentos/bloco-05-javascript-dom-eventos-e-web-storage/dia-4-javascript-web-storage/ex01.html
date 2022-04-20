@@ -4,35 +4,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aleatório</title>
+  <title>Leitor de Textos</title>
   <link rel="stylesheet" href="ex01.css"> 
 </head>
 <body>
   <header>
-    <h1 id="main-title" class="title">Texto Aleatório</h1>
+    <h1 id="main-title" class="title">Leitor de Textos</h1>
   </header>
   <main>
     <section id="text">
-      <p class="paragraph">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis consequat enim. Nullam nibh turpis, ullamcorper id imperdiet hendrerit, fringilla vel justo. Donec non libero justo. Maecenas eu tellus vel arcu tincidunt cursus. Nullam iaculis lectus lobortis, maximus leo et, bibendum mauris. Maecenas tempor dapibus lectus id consectetur. Aenean aliquam enim ac nibh posuere interdum. Aenean blandit, sapien a suscipit hendrerit, mauris orci hendrerit dolor, aliquet egestas metus justo sed urna. Nunc at nisl lectus. Morbi pellentesque nulla ac tellus ornare sollicitudin ac non enim. Vivamus sagittis fringilla magna.
-      </p>
-      <p class="paragraph">
-        Phasellus elementum auctor eros, non egestas lectus maximus nec. In cursus egestas purus eget molestie. Vivamus auctor quam quis sagittis scelerisque. Duis a finibus magna. In maximus magna sed finibus dignissim. Sed vel pharetra risus. Cras vitae rutrum justo. Vestibulum varius ut sapien id scelerisque. Integer vel lectus placerat, sollicitudin nibh ut, ultricies sem. Vestibulum scelerisque porta rhoncus. Morbi dolor ligula, venenatis vitae tempus sit amet, ultricies ac est. Aliquam erat volutpat. Pellentesque id nisl mi. Nulla augue mi, rutrum ac pulvinar eu, molestie quis quam. Nam dapibus odio a congue tempus. Duis nisl nunc, tempus et pellentesque a, tempus non enim.
-      </p>
-      <p class="paragraph">
-        Quisque varius odio ac magna consequat, posuere semper justo faucibus. Nunc tristique enim at nunc tristique, in maximus est lacinia. Cras id pharetra odio. Sed a tortor tempor, vulputate dui sit amet, auctor nisi. Sed placerat libero non nibh hendrerit pellentesque. Cras porta, tortor maximus lacinia mollis, velit libero luctus ex, posuere hendrerit ex lorem nec erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus ac cursus erat, nec imperdiet lectus. Cras sollicitudin ullamcorper mi sodales pulvinar. Nunc vehicula, mauris quis sodales sagittis, erat massa aliquam dolor, at facilisis quam tortor sed justo. Nulla a est sed massa consectetur mollis. Pellentesque justo diam, imperdiet vitae cursus et, eleifend consequat sem. Vivamus in iaculis massa.
-      </p>
-      <p class="paragraph">
-        Curabitur porttitor auctor lorem, eu laoreet eros euismod nec. Cras vel eros eget est facilisis vulputate at ac quam. Morbi commodo a velit at ullamcorper. Donec nec dolor ac ex interdum convallis vehicula eget ligula. In at justo rutrum, rhoncus eros id, placerat turpis. Praesent id tortor ultrices, accumsan lorem eu, consectetur tellus. Fusce dictum bibendum velit, aliquam lacinia tellus blandit id. Nullam at pellentesque dui, at pretium augue. Etiam congue metus leo, ac bibendum nisi rutrum ut. Sed rutrum velit quis dui pretium consequat. Morbi posuere lectus et est placerat, sed dapibus urna interdum. Proin quis mollis mauris. Suspendisse est nisl, pellentesque nec eleifend sit amet, pharetra ac nibh. Vestibulum fermentum ullamcorper rhoncus. Duis ut lorem non ex facilisis blandit vel eget turpis.
-      </p>
-      <p class="paragraph">
-        Vivamus vel ex a eros condimentum tempor vel non quam. Donec sagittis nec urna nec consequat. Maecenas dignissim vitae mi eu rutrum. Aliquam turpis nulla, consequat vel erat at, elementum vulputate lectus. Sed pellentesque hendrerit nulla nec ultrices. Integer vel venenatis tellus. Nam hendrerit quis felis sit amet venenatis. Nulla vitae efficitur ipsum, vel posuere diam. Nullam ac dolor a mi facilisis pellentesque. Curabitur semper felis id mauris sollicitudin, vitae elementum massa fringilla. Quisque rutrum posuere risus eu porta. Pellentesque porttitor purus eu nunc pretium, eu elementum massa commodo.
-      </p>
-      <p class="paragraph">
-        Integer elementum velit metus, fermentum vestibulum nunc condimentum sit amet. Sed facilisis quis lorem id hendrerit. In hac habitasse platea dictumst. Pellentesque semper in ligula convallis dictum. Maecenas ut risus hendrerit, pharetra lorem vitae, vehicula sem. Quisque feugiat nisi vitae leo facilisis volutpat. Vivamus elit leo, egestas nec metus ut, facilisis tincidunt ligula. Donec a diam purus.
-      </p>
+      <p id="paragraph"></p>
     </section>
     <section id="inputs">
+      <div>
+        <label for="inputText">Insira o texto:</label>
+        <textarea id="inputText"></textarea>
+      </div>
       <div>
         <p class="inputParagraph">Selecione a cor do fundo:</p>
         <input type="color" id="backgroundColor" class="inputs">
