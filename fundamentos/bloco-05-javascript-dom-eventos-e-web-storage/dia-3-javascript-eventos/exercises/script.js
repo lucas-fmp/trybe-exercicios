@@ -92,14 +92,12 @@ for (let i = 0; i < listElements.length; i += 1) {
 // Exercício 7
 function addTask(task) {
   let tasks = document.createElement('span');
-  tasks.innerText = task + '\n'
+  tasks.innerText = task
   let taskContainer = document.querySelector('.my-tasks');
   taskContainer.appendChild(tasks);
 }
 
-addTask("Cozinhar");
-addTask("Ir a academia");
-addTask("Caminhar");
+addTask("Cozinhar:");
 
 // Exercício 8
 function addColor(color) {
@@ -111,8 +109,6 @@ function addColor(color) {
 }
 
 addColor('red');
-addColor('green');
-addColor('blue');
 
 // Exercício 9 (Não acabado, mesma coisa do 3, não sei voltar)
 let listOfTasks = document.querySelectorAll('.task')
