@@ -1,0 +1,51 @@
+body {
+  margin: 50px;
+  background-color: rgb(228, 228, 228);
+}
+
+#main-title {
+  text-align: center;
+}
+
+.paragraph {
+  text-align: justify;
+}
+
+#backgroundColor {
+  width: 170px;
+}
+
+#textColor {
+  width: 170px;
+}
+
+.inputParagraph {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.inputs {
+  float: right;
+  margin-top: 12px;
+}
+
+div {
+  width: 450px;
+}
+
+#fontSize {
+  width: 162px;
+}
+
+#lineSpacing {
+  width: 162px;
+}
+
+#fontFamily {
+  width: 162px;
+}
+
+textarea {
+  width: 100%;
+  height: 300px;
+}

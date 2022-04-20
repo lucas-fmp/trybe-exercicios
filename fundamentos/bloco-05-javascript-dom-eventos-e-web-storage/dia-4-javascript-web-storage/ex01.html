@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leitor de Textos</title>
+  <link rel="stylesheet" href="ex01.css"> 
+</head>
+<body>
+  <header>
+    <h1 id="main-title" class="title">Leitor de Textos</h1>
+  </header>
+  <main>
+    <section id="text">
+      <p id="paragraph"></p>
+    </section>
+    <section id="inputs">
+      <div>
+        <label for="inputText">Insira o texto:</label>
+        <textarea id="inputText"></textarea>
+      </div>
+      <div>
+        <p class="inputParagraph">Selecione a cor do fundo:</p>
+        <input type="color" id="backgroundColor" class="inputs">
+      </div>
+      <div>
+        <p class="inputParagraph">Selecione a cor do texto:</p>
+        <input type="color" id="textColor" class="inputs">
+      </div>
+      <div>
+        <p class="inputParagraph">Selecione o tamanho da fonte:</p>
+        <input id="fontSize" class="inputs">
+      </div>
+      <div>
+        <p class="inputParagraph">Selecione o espaçamento entre as linhas:</p>
+        <input id="lineSpacing" class="inputs">
+      </div>
+      <div>
+        <p class="inputParagraph">Selecione o estilo da fonte:</p>
+        <input id="fontFamily" class="inputs">
+      </div>
+    </section>
+  </main>
+  <script src="ex01.js"></script>
+</body>
+</html>
