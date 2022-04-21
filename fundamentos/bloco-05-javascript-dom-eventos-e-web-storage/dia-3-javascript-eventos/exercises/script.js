@@ -102,7 +102,7 @@ addTask("Cozinhar:");
 // Exercício 8
 function addColor(color) {
   let div = document.createElement('div');
-  div.setAttribute('class', 'task');
+  div.classList.add('task');
   div.style.backgroundColor = color;
   let taskContainer = document.querySelector('.my-tasks');
   taskContainer.appendChild(div);
@@ -119,3 +119,41 @@ for (i = 0; i < listOfTasks.length; i += 1) {
 }
 
 // Exercício 10
+for (let i = 0; i < listElements.length; i += 1) {
+  listElements[i].addEventListener('click', function(event) {
+    let day = event.target;
+    let divTask = document.querySelectorAll('.task')[0];
+    if (day.style.color != divTask.style.backgroundColor) {
+      day.style.color = divTask.style.backgroundColor;
+    } else {
+      day.style.color = 'rgb(119,119,119)';
+    }
+  });
+};
+
+// Bônus
+let buttonAdd = document.querySelector('#btn-add');
+buttonAdd.addEventListener('click', function () {
+  let input = document.querySelector('#task-input').value;
+  if (input != '') {
+    let li = document.createElement('li');
+    li.innerText = input
+    let taskList = document.querySelectorAll('.task-list')[0];
+    li.classList.add('task');
+    taskList.appendChild(li);
+  } else {
+    alert('Erro');
+  }
+});
+
+let input = document.querySelector('#task-input');
+input.addEventListener('keydown', function () {
+  if (window.event.keyCode == 13) {
+    let input = document.querySelector('#task-input').value;
+    let li = document.createElement('li');
+    li.innerText = input
+    let taskList = document.querySelectorAll('.task-list')[0];
+    li.classList.add('task');
+    taskList.appendChild(li);
+  }
+});
