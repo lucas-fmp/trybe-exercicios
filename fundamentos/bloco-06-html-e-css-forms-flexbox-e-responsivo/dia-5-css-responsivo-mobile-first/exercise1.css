@@ -68,10 +68,29 @@ figcaption {
     flex-direction: row;
     flex-wrap: wrap;
     border: 1px solid red;
-    justify-content: center;
   }
 
   figure {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  body {
+    background-color: aquamarine;
+    font-size: 15px;
+    margin: 40px;
+    max-width: 1000px;
+  }
+
+  h1 {
+    font-size: large;
+  }
+
+  h2 {
+    font-size: medium;
   }
 }
