@@ -1,0 +1,262 @@
+
+> my-form-2.0@0.1.0 start
+> react-scripts start
+
+(node:5449) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:5449) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view my-form-2.0 in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.100.145:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Failed to compile.
+
+Module not found: Error: Can't resolve './Form' in '/home/lucas/trybe-exercicios/front-end/bloco-11-componentes-com-estado-eventos-e-formularios-com-react/dia-2-formularios-no-react/my-form-2.0/src'
+ERROR in ./src/App.js 5:0-26
+Module not found: Error: Can't resolve './Form' in '/home/lucas/trybe-exercicios/front-end/bloco-11-componentes-com-estado-eventos-e-formularios-com-react/dia-2-formularios-no-react/my-form-2.0/src'
+
+webpack compiled with 1 error
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Failed to compile.
+
+Module not found: Error: Can't resolve './Data' in '/home/lucas/trybe-exercicios/front-end/bloco-11-componentes-com-estado-eventos-e-formularios-com-react/dia-2-formularios-no-react/my-form-2.0/src'
+ERROR in ./src/App.js 5:0-26
+Module not found: Error: Can't resolve './Data' in '/home/lucas/trybe-exercicios/front-end/bloco-11-componentes-com-estado-eventos-e-formularios-com-react/dia-2-formularios-no-react/my-form-2.0/src'
+
+webpack compiled with 1 error
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Jobs.js
+Syntax error: Unexpected token (7:4) (7:4)
+ERROR in ./src/components/Jobs.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/lucas/trybe-exercicios/front-end/bloco-11-componentes-com-estado-eventos-e-formularios-com-react/dia-2-formularios-no-react/my-form-2.0/src/components/Jobs.js: Unexpected token (7:4)
+
+   5 |     return (
+   6 |
+>  7 |     )
+     |     ^
+   8 |   }
+   9 | }
+  10 |
+    at instantiate (/home/lucas/trybe-exercicios/front-end/bloco-11-componentes-com-estado-eventos-e-formularios-com-react/dia-2-formularios-no-react/my-form-2.0/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/home/lucas/trybe-exercicios/front-end/bloco-11-componentes-com-estado-eventos-e-formularios-com-react/dia-2-formularios-no-react/my-form-2.0/node_modules/@babel/parser/lib/index.js:358:12)
+    at Object.raise (/home/lucas/trybe-exercicios/front-end/bloco-11-componentes-com-estado-eventos-e-formularios-com-react/dia-2-formularios-no-react/my-form-2.0/node_modules/@babel/parser/lib/index.js:3341:19)
+    at Object.unexpected (/home/lucas/trybe-exercicios/front-end/bloco-11-componentes-com-estado-eventos-e-formularios-com-react/dia-2-formularios-no-react/my-form-2.0/node_modules/@babel/parser/lib/index.js:3379:16)
+    at Object.parseParenAndDistinguishExpression (/home/lucas/trybe-exercicios/front-end/bloco-11-componentes-com-estado-eventos-e-formularios-com-react/dia-2-formularios-no-react/my-form-2.0/node_modules/@babel/parser/lib/index.js:13421:12)
+    at Object.parseParenAndDistinguishExpression (/home/lucas/trybe-exercicios/front-end/bloco-11-componentes-com-estado-eventos-e-formularios-com-react/dia-2-formularios-no-react/my-form-2.0/node_modules/@babel/parser/lib/index.js:6720:18)
+    at Object.parseExprAtom (/home/lucas/trybe-exercicios/front-end/bloco-11-componentes-com-estado-eventos-e-formularios-com-react/dia-2-formularios-no-react/my-form-2.0/node_modules/@babel/parser/lib/index.js:12971:23)
+    at Object.parseExprAtom (/home/lucas/trybe-exercicios/front-end/bloco-11-componentes-com-estado-eventos-e-formularios-com-react/dia-2-formularios-no-react/my-form-2.0/node_modules/@babel/parser/lib/index.js:8041:20)
+    at Object.parseExprSubscripts (/home/lucas/trybe-exercicios/front-end/bloco-11-componentes-com-estado-eventos-e-formularios-com-react/dia-2-formularios-no-react/my-form-2.0/node_modules/@babel/parser/lib/index.js:12643:23)
+    at Object.parseUpdate (/home/lucas/trybe-exercicios/front-end/bloco-11-componentes-com-estado-eventos-e-formularios-com-react/dia-2-formularios-no-react/my-form-2.0/node_modules/@babel/parser/lib/index.js:12622:21)
+
+ERROR in [eslint] 
+src/components/Jobs.js
+  Line 7:4:  Parsing error: Unexpected token (7:4)
+
+webpack compiled with 2 errors
+Failed to compile.
+
+[eslint] 
+src/components/Jobs.js
+Syntax error: Unexpected token (7:4) (7:4)
+ERROR in ./src/App.js 6:0-37
+Module not found: Error: Can't resolve './components/Jobs' in '/home/lucas/trybe-exercicios/front-end/bloco-11-componentes-com-estado-eventos-e-formularios-com-react/dia-2-formularios-no-react/my-form-2.0/src'
+
+ERROR in [eslint] 
+src/components/Jobs.js
+  Line 7:4:  Parsing error: Unexpected token (7:4)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Jobs.js
+Syntax error: Unexpected token (7:4) (7:4)
+ERROR in [eslint] 
+src/components/Jobs.js
+  Line 7:4:  Parsing error: Unexpected token (7:4)
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Jobs.js
+Syntax error: Unexpected token (7:4) (7:4)
+ERROR in [eslint] 
+src/components/Jobs.js
+  Line 7:4:  Parsing error: Unexpected token (7:4)
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Jobs.js
+Syntax error: Unexpected token (7:4) (7:4)
+ERROR in [eslint] 
+src/components/Jobs.js
+  Line 7:4:  Parsing error: Unexpected token (7:4)
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Jobs.js
+Syntax error: Unexpected token (7:4) (7:4)
+ERROR in [eslint] 
+src/components/Jobs.js
+  Line 7:4:  Parsing error: Unexpected token (7:4)
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Jobs.js
+Syntax error: Unexpected token (7:4) (7:4)
+ERROR in [eslint] 
+src/components/Jobs.js
+  Line 7:4:  Parsing error: Unexpected token (7:4)
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Jobs.js
+Syntax error: Unexpected token (7:4) (7:4)
+ERROR in [eslint] 
+src/components/Jobs.js
+  Line 7:4:  Parsing error: Unexpected token (7:4)
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Jobs.js
+Syntax error: Unexpected token (7:4) (7:4)
+ERROR in [eslint] 
+src/components/Jobs.js
+  Line 7:4:  Parsing error: Unexpected token (7:4)
+
+webpack compiled with 1 error
