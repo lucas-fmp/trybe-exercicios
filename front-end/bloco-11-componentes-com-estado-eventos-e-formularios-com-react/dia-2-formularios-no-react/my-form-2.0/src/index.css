@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
+  color: rgb(56, 56, 56);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+
+fieldset {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20px;
+  max-width: auto;
+  border-radius: 10px;
+}
+
+.formsContainer {
+  display: flex;
+  padding: 50px 50px 0px 50px;
+  flex-direction: column;
+}
+
+input, textarea, select {
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid lightblue;
+}
+
+select {
+  background-color: white;
+  color: rgb(56, 56, 56);
+}
+
+#inputName {
+  text-transform: uppercase;
+}
+
+button {
+  width: 100px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid lightblue;
+  color: rgb(56, 56, 56);
+}
+
+.buttonContainer {
+  
+}
